@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        
+        /* .button{
+            padding: 5px;
+            border-radius: 3px;
+            cursor: pointer;
+            box-shadow: none;
+            color: green;
+            background-color: yellow;
+
+        } */
+        body { 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #6610f2, #238cfb);
+            height: 100vh;
+            margin: 0;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .button {
+            font-size: 17px;
+            padding: 12px 22px;
+            background-color: #6610f2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <div class="button-container">
+        <button class="button" onclick="redirectToStudent()">I'm Student</button>
+        <button class="button" onclick="redirectToTutorreg()">I'm Tutor</button>
+    </div>
+
+    <script>
+    function redirectToStudent() {
+        window.location.href = "/";
+     }
+
+    function redirectToTutorreg() {
+        window.location.href = "/tutor";
+    }
+    </script>
+</body>
+</html>

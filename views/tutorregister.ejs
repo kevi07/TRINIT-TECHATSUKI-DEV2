@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutor Registration Questions</title>
+    <link rel="stylesheet" href="css/tutor.css"> <!-- Link to your CSS file -->
+</head>
+<body style="padding: 20px;">
+    <div class="registration-container">
+        <h2>Tutor Registration</h2>
+        <form id="tutorRegistrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            
+            <label for="experience">Years of Experience:</label>
+            <input type="number" id="experience" name="experience" required>
+            
+            <label for="history">History of Experience:</label>
+            <textarea id="history" name="history" rows="4" required></textarea>
+            
+            <label for="languages">Languages Known:</label>
+            <select id="languages" name="languages" required>
+                <option value="" disabled selected>Select Languages</option>
+                <option value="English">English</option>
+                <option value="Spanish">Spanish</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+                <!-- Add more options as needed -->
+            </select>
+            
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="identityProof">Upload Identity Proof:</label>
+            <input type="file" id="identityProof" name="identityProof" accept="image/*" required>
+            
+            <label for="pricing">Pricing per Hour:</label>
+            <select id="pricing" name="pricing" required>
+                <option value="" disabled selected>Select Pricing</option>
+                <option value="50">$50</option>
+                <option value="60">$60</option>
+                <option value="100">$100</option>
+            </select>
+            
+            <label for="timings">Available Timings:</label>
+            <input type="text" id="timings" name="timings">
+            
+            <input type="submit" value="Submit" onclick="redirectTotutor()">
+        </form>
+    </div>
+
+    <script>
+        function redirectTotutor() {
+            window.location.href = "/tutorworkspace";
+        }
+    </script>
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
