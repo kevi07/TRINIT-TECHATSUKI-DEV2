@@ -27,7 +27,7 @@
                 <div class="collapse navbar-collapse" id="navbarExample01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item active">
-                            <a class="nav-link" aria-current="page" href="#intro">Home</a>
+                            <a class="nav-link" aria-current="page" href="/views/index.ejs">Home</a>
                         </li>
                         <!-- Add a class link with anchor to the second section -->
                         <li class="nav-item">
@@ -121,20 +121,12 @@
     </div>
 
     <div class="third">
-      <video id="live-stream" class="video-js vjs-default-skin" controls></video>
+      <h1>Video Streaming</h1>
+      <video src="/videoplayer" width="1080px" 
+           controls></video> 
     </div>
 
     <!--Main Navigation-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script>
-      var player = videojs('live-stream');
-      if (Hls.isSupported()) {
-          var hls = new Hls();
-          hls.loadSource('YOUR_HLS_STREAM_URL.m3u8');
-          hls.attachMedia(player);
-      } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
-          player.src = 'YOUR_HLS_STREAM_URL.m3u8';
-      }
-  </script>
 </body>
 </html>
