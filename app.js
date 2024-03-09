@@ -109,6 +109,10 @@ app.get('/videoplayer', (req, res) => {
         end 
     }) 
     stream.pipe(res) 
-}) 
+});
+
+app.get('/stud',(req,res) => {
+    res.render('student.ejs')
+})
 
 app.listen(5000);
