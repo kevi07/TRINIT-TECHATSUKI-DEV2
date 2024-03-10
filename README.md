@@ -1,6 +1,8 @@
 # TRINIT-TECHATSUKI-DEV
 # TriNIT Hackathon 3.0  Welcome to our team's repository for TriNIT Hackathon 3.0! Let's collaborate and build something amazing together. Good luck, team! 🚀👩‍💻👨‍💻
 
+presentation link - https://drive.google.com/file/d/1JmT5shYgg5meYpaNlePUGJeRsPt8p4WK/view?usp=sharing
+
 # LinguaConnect
 
 LinguaConnect is an innovative language learning platform designed to make learning a new language engaging and effective. This repository contains the source code for the platform, developed with a focus on interactive learning experiences and user-friendly interfaces.
