@@ -1,7 +1,6 @@
 # TRINIT-TECHATSUKI-DEV
 # TriNIT Hackathon 3.0  Welcome to our team's repository for TriNIT Hackathon 3.0! Let's collaborate and build something amazing together. Good luck, team! 🚀👩‍💻👨‍💻
 
-presentation link - https://drive.google.com/file/d/1JmT5shYgg5meYpaNlePUGJeRsPt8p4WK/view?usp=sharing
 
 # LinguaConnect
 
