@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require("path");
 
 
-mongoose.connect('mongodb+srv://kevin:Kevin123@cluster0.fdzpbea.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://kevin:Dw2keKXRgkHkr4Qs@cluster0.fdzpbea.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
