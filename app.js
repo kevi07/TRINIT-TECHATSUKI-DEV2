@@ -90,9 +90,9 @@ app.get('/tutorworkspace' , (req,res) => {
 });
 
 app.get('/videoplayer', (req, res) => { 
-    const range = req.headers.range 
+    const range = req.headers.range ;
     const videoPath = '/video/English_course.mp4'; 
-    const videoSize = fs.statSync(videoPath).size 
+    const videoSize = fs.statSync(videoPath).size ;
     const chunkSize = 1 * 1e6; 
     const start = Number(range.replace(/\D/g, "")) 
     const end = Math.min(start + chunkSize, videoSize - 1) 
